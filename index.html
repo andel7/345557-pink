@@ -5,8 +5,232 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+      <header class="page_header">
+        <ul class="menu_block">
+          <li class="menu_block__item first_line">
+            <div class="first_line__logo">
+              <img src="http://placehold.it/150x100" alt="Logo">
+            </div>
+            <div class="first_line__bugrer_button first_line__bugrer_button">
+              <span class="burger_line"></span>
+              <span class="burger_line"></span>
+              <span class="burger_line"></span>
+            </div>
+          </li>
+          <li class="menu_block__item">
+            <a href="index.html" title="main page">Главная</a>
+          </li>
+          <li class="menu_block__item">
+            <a href="photo.html" title="photos">Фотографии</a>
+          </li>
+          <li class="menu_block__item">
+            <a href="form.html" titie="competition page">Конкурс</a>
+          </li>
+          <li class="menu_block__item">
+            <a href="http://www.htmacademy.ru"  title="html academy page">HTML Academy</a>
+          </li>
+        </ul>
+      </header>
+      <main class="main-content">
+        <section class="download_section">
+           <img class="download_section__image" src="http://placehold.it/150x100" alt="preview image">
+           <div class="download_section__info">
+             <button class="download_section__info__button">
+             </button>
+             <ul class="store_icons">
+               <li class="store_icons__item">
+                 <img class="apple_store" src="http://placehold.it/150x100" alt="download from appstore">
+               </li>
+               <li class="store_icons__item">
+                 <img class="android_store" src="http://placehold.it/150x100" alt="download from play market">
+               </li>
+               <li class="store_icons__item">
+                 <img class="windows_store" src="http://placehold.it/150x100" alt="download from windows marketplace">
+               </li>
+             </ul>
+             <div class="download_section__text">
+                <b>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</b>
+             </div>
+           </div>
+        </section>
+        <section class="description_section">
+          <div class="description_section__titles description_titles">
+            <h2 class="description_titles__item">Устали от серости мегаполиса?</h2>
+            <h2 class="description_titles__item">Нам есть, что вам предложить!</h2>
+          </div>
+          <div class="description_section__advantages description_advantages">
+              <div class="description_advantages__item">
+                <h3 class="description_advantage_title">
+                  Поднимает настроение
+                </h3>
+                <p class="description_advantage_title_text">
+                  Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+                </p>
+              </div>
+              <div class="description_advantages__item">
+                <h3 class="description_advantage_title">
+                  Меняет мир вокруг
+                </h3>
+                <p class="description_advantage_title_text">
+                  Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+                </p>
+              </div>
+              <div class="description_advantages__item">
+                <h3 class="description_advantage_title">
+                  Заводит новых друзей
+                </h3>
+                <p class="description_advantage_title_text">
+                  Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
+                </p>
+              </div>
+              <div class="description_section__image">
+                <img src="http://placehold.it/150x100" alt="regards to all">
+              </div>
+          </div>
+        </section>
+        <section class="review_section">
+          <div class="review_section__item">
+            <h3>
+              Николай Петров
+            </h3>
+            <p>
+              <blockquote>
+                Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!
+              </blockquote>
+            </p>
+          </div>
+          <div class="review_selectors">
+            <span class="revew_selectors__item revew_selectors__item__active"></span>
+            <span class="revew_selectors__item"></span>
+            <span class="revew_selectors__item"></span>
+          </div>
+        </section>
+        <section class="price_section">
+          <ul class="pricing_options">
+            <li class="pricing_options__item pricing_options__item__popular">
+                <header class="pricing_header">
+                    <b class="pricing_header__title">
+                      Стандарт
+                    </b>
+                    <b class="pricing_header__amount">
+                      3,99 USD
+                    </b>
+                </header>
+                <ul class="pricing_features">
+                    <li class="pricing_features__item">
+                        <span class="feature_name">
+                          Розовый фильтр
+                        </span>
+                        <img src="" alt="" class="feature_enabled">
+                    </li>
+                    <li class="pricing_features__item">
+                        <span class="feature_name">
+                          Смайлики
+                        </span>
+                        <img src="" alt="" class="feature_enabled">
+                    </li>
+                    <li class="pricing_features__item">
+                        <span class="feature_name">
+                          Комментарии
+                        </span>
+                        <img src="" alt="" class="feature_enabled pricing_features__item__not_enabled">
+                    </li>
+                </ul>
+            </li>
+            <li class="pricing_options__item">
+                    <header class="pricing_header">
+                        <b class="pricing_header__title">
+                          База
+                        </b>
+                        <b class="pricing_header__amount">
+                          1,99 USD
+                        </b>
+                    </header>
+                    <ul class="pricing_features">
+                        <li class="pricing_features__item">
+                            <span class="feature_name">
+                              Розовый фильтр
+                            </span>
+                            <img src="" alt="" class="feature_enabled">
+                        </li>
+                        <li class="pricing_features__item">
+                            <span class="feature_name">
+                              Смайлики
+                            </span>
+                            <img src="" alt="" class="feature_enabled pricing_features__item__not_enabled">
+                        </li>
+                        <li class="pricing_features__item">
+                            <span class="feature_name">
+                              Комментарии
+                            </span>
+                            <img src="" alt="" class="feature_enabled pricing_features__item__not_enabled">
+                        </li>
+                    </ul>
+            </li>
+            <li class="pricing_options__item">
+                <header class="pricing_header">
+                    <b class="pricing_header__title">
+                      Анлим
+                    </b>
+                    <b class="pricing_header__amount">
+                      9,99 USD
+                    </b>
+                </header>
+                <ul class="pricing_features">
+                    <li class="pricing_features__item">
+                        <span class="feature_name">
+                          Розовый фильтр
+                        </span>
+                        <img src="" alt="" class="feature_enabled">
+                    </li>
+                    <li class="pricing_features__item">
+                        <span class="feature_name">
+                          Смайлики
+                        </span>
+                        <img src="" alt="" class="feature_enabled">
+                    </li>
+                    <li class="pricing_features__item">
+                        <span class="feature_name">
+                          Комментарии
+                        </span>
+                        <img src="" alt="" class="feature_enabled">
+                    </li>
+                </ul>
+            </li>
+          </ul>
+          <div class="price_section__selectors">
+            <span class="pricing_option__selector pricing_option__selector__active"></span>
+            <span class="pricing_option__selector"></span>
+            <span class="pricing_option__selector"></span>
+          </div>
+        </section>
+        <section class="contacts_section">
+          <h4 class="contacts_section__header">
+            Остались вопросы?
+            Свяжитесь с нами!
+          <h4>
+          <b class="contacts_section__call_us">
+            Звоните:
+          </b>
+          <a href="tel:+7 (812) 555-66-66" class="contacts_section__phone_number">
+            +7 (812) 555-66-66
+          </a>
+          <b class="contacts_section__mail_us">
+            Пишите:
+          </b>
+          <a href="mail_to:mail@htmlacademy.ru">
+            mail@htmlacademy.ru
+          </a>
+          <b class="contacts_section__come_over">
+            Приезжайте в гости:
+          </b>
+          <a href="geo:0,0?q=ул. БольшаяКонюшенная, 19/8">
+            ул. Большая
+            Конюшенная, 19/8
+          </a>
+          <div class="contacts_section__map">
+          </div>
+        </section>
+      </main>
   </body>
 </html>
