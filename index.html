@@ -5,14 +5,14 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-      <header class="page_header">
+      <header class="header">
         <nav class="navigation">
-            <ul class="menu_block navigation__list">
-              <li class="navigation__item first_line">
-                <div class="page_header__logo">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <div class="navigation__logo">
                   <img src="http://placehold.it/150x100" alt="Logo">
                 </div>
-                <div class="first_line__burger_button first_line__burger_button">
+                <div class="navigation__menu_button navigation__menu_button--open">
                   <span class="first_line__burger_lines"></span>
                 </div>
               </li>
@@ -56,15 +56,15 @@
         </section>
         <section class="description">
           <header class="description__header">
-            <h2 class="description_title">Устали от серости мегаполиса?</h2>
-            <h2 class="description_title">Нам есть, что вам предложить!</h2>
+            <h2 class="description__title">Устали от серости мегаполиса?</h2>
+            <h2 class="description__title">Нам есть, что вам предложить!</h2>
           </header>
           <div class="description_advantages">
               <div class="description__advantages_item">
                 <h3 class="description__advantage_title">
                   Поднимает настроение
                 </h3>
-                <p class="description__advantage__text">
+                <p class="description__advantage_text">
                   Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
                 </p>
               </div>
@@ -72,15 +72,15 @@
                 <h3 class="description__advantage_title">
                   Меняет мир вокруг
                 </h3>
-                <p class="description__advantage__text">
+                <p class="description__advantage_text">
                   Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
                 </p>
               </div>
               <div class="description__advantages_item">
-                <h3 class="description_advantage_title">
+                <h3 class="description__advantage_title">
                   Заводит новых друзей
                 </h3>
-                <p class="description_advantage_title_text">
+                <p class="description__advantage_text">
                   Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
                 </p>
               </div>
@@ -115,7 +115,7 @@
             </blockquote>
           </div>
           <div class="review_selectors">
-            <span class="revew_selectors__item revew_selectors__item__active"></span>
+            <span class="revew_selectors__item revew_selectors__item--active"></span>
             <span class="revew_selectors__item"></span>
             <span class="revew_selectors__item"></span>
           </div>
@@ -123,89 +123,65 @@
         <section class="price">
           <ul class="price__list">
             <li class="price__item price__item--popular">
-                <header class="pricing_header">
-                    <b class="pricing_header__title">
+                <header class="price__header">
+                    <b class="price__title">
                       Стандарт
                     </b>
-                    <b class="pricing_header__amount">
+                    <b class="price__amount">
                       3,99 USD
                     </b>
                 </header>
-                <ul class="pricing_features">
-                    <li class="pricing_features__item">
-                        <span class="feature_name">
+                <ul class="price__features_list">
+                    <li class="price__feature_item">
                           Розовый фильтр
-                        </span>
                     </li>
-                    <li class="pricing_features__item">
-                        <span class="feature_name">
+                    <li class="price__feature_item">
                           Смайлики
-                        </span>
                     </li>
-                    <li class="pricing_features__item pricing_features__item--disabled">
-                        <span class="feature_name">
+                    <li class="price__feature_item price__feature_item--disabled">
                           Комментарии
-                        </span>
                     </li>
                 </ul>
             </li>
             <li class="price__item">
-                    <header class="pricing_header">
-                        <b class="pricing_header__title">
+                    <header class="price__header">
+                        <b class="price__title">
                           База
                         </b>
-                        <b class="pricing_header__amount">
+                        <b class="price__amount">
                           1,99 USD
                         </b>
                     </header>
-                    <ul class="pricing_features">
-                        <li class="pricing_features__item">
-                            <span class="feature_name">
+                    <ul class="price__features_list">
+                        <li class="price__feature_item">
                               Розовый фильтр
-                            </span>
-                            <img src="" alt="" class="feature_enabled">
                         </li>
-                        <li class="pricing_features__item">
-                            <span class="feature_name">
+                        <li class="price__feature_item price__feature_item--disabled">
                               Смайлики
-                            </span>
-                            <img src="" alt="" class="feature_enabled pricing_features__item__not_enabled">
                         </li>
-                        <li class="pricing_features__item">
-                            <span class="feature_name">
+                        <li class="price__feature_item price__feature_item--disabled">
                               Комментарии
-                            </span>
-                            <img src="" alt="" class="feature_enabled pricing_features__item__not_enabled">
                         </li>
                     </ul>
             </li>
             <li class="price__item">
-                <header class="pricing_header">
-                    <b class="pricing_header__title">
+                <header class="price__header">
+                    <b class="price__title">
                       Анлим
                     </b>
-                    <b class="pricing_header__amount">
+                    <b class="price__amount">
                       9,99 USD
                     </b>
                 </header>
-                <ul class="pricing_features">
-                    <li class="pricing_features__item">
-                        <span class="feature_name">
+                <ul class="price__features_list">
+                    <li class="price__feature_item">
                           Розовый фильтр
-                        </span>
-                        <img src="" alt="" class="feature_enabled">
                     </li>
-                    <li class="pricing_features__item">
-                        <span class="feature_name">
+                    <li class="price__feature_item">
                           Смайлики
-                        </span>
-                        <img src="" alt="" class="feature_enabled">
                     </li>
-                    <li class="pricing_features__item">
-                        <span class="feature_name">
+                    <li class="price__feature_item">
                           Комментарии
-                        </span>
-                        <img src="" alt="" class="feature_enabled">
                     </li>
                 </ul>
             </li>
